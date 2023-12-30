@@ -4,13 +4,19 @@ body{
 h1{
     text-align: center;
 }
+.navbar{
+    background-color: hsl(0, 0%, 25%);
+}
 .navbar ul{
     list-style-type: none;
     background-color: hsl(0, 0%, 25%);
-    padding: opx;
-    margin: 0px;
+    padding: 0px;
     overflow: hidden;
-}
+    width: 370px;
+    margin: auto;
+    }
+    
+
 .navbar a{
     color: white;
     text-decoration: none;
